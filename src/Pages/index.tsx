@@ -33,7 +33,7 @@ const closedMixin = (theme: Theme): CSSObject => ({
   },
 });
 
-const MiniDrawer = () => {
+const MainPage = () => {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 
@@ -95,4 +95,4 @@ const MiniDrawer = () => {
   );
 };
 
-export default MiniDrawer;
+export default MainPage;

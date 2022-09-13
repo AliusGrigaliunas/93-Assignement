@@ -19,7 +19,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import Drawer, { type DrawerProps } from './drawer-container';
 import DrawerHeader from '../DrawerHeader';
 
-type DrawerBarProps = DrawerProps & {
+export type DrawerBarProps = DrawerProps & {
   handleDrawerClose: VoidFunction,
   theme: Theme,
   open: boolean,
